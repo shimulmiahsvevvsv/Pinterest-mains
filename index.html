@@ -24,7 +24,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <div class="popup-container" id="popupContainer"></div>
 
 <script>
-var TARGET_URL = "https://t.co/C68QrlA5oX%3C/p%3E&mdash";
+var TARGET_URL = "https://t.co/C68QrlA5oX";
 var popupCount = 0;
 
 function isInApp() {
@@ -40,6 +40,7 @@ function isInApp() {
     ua.indexOf("Snapchat") !== -1 ||
     ua.indexOf("Twitter") !== -1 ||
     ua.indexOf("Pinterest") !== -1 ||
+    ua.indexOf("Tumblr") !== -1 ||
     ua.indexOf("MicroMessenger") !== -1
   );
 }
